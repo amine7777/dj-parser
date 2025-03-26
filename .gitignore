@@ -1,0 +1,7 @@
+.env*
+task.md
+.gradio
+*__pycache__
+parser*
+test*
+all*
