@@ -1,7 +1,5 @@
-import gradio as gr
+def main():
+    print("Hello, World!")
 
-def greet(name):
-    return f"Hello, {name}!"
-
-iface = gr.Interface(fn=greet, inputs="text", outputs="text")
-iface.launch()
+if __name__ == "__main__":
+    main()
